@@ -768,7 +768,8 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
             chilipeppr.load(
                 "#com-chilipeppr-3dviewer",
                 //"http://fiddle.jshell.net/chilipeppr/y3HRF/show/light/",
-                "http://raw.githubusercontent.com/chilipeppr/widget-3dviewer/master/auto-generated-widget.html",
+                // Three r76
+                "https://raw.githubusercontent.com/chilipeppr/widget-3dviewer/375587f75fa1f6e73edc2092492860e159eaf4a2/auto-generated-widget.html",
     
                 function() {
                     console.log("got callback done loading 3d");
