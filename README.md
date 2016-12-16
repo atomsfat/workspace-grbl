@@ -39,7 +39,7 @@ chilipeppr.load(
     // Callback after workspace loaded into #pnlWorkspace
     // Now use require.js to get reference to instantiated workspace
     cprequire(
-      ["inline:com-chilipeppr-workspace-grbl-debug2"], // the id you gave your workspace
+      ["inline:com-chilipeppr-workspace-grbl-debug3"], // the id you gave your workspace
       function(myWorkspaceGrblDebug3) {
         // Callback that is passed reference to the newly loaded workspace
         console.log("Workspace / grbl just got loaded.", myWorkspaceGrblDebug3);

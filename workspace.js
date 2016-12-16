@@ -1,5 +1,5 @@
 /* global cpdefine chilipeppr cprequire */
-cprequire_test(["inline:com-chilipeppr-workspace-grbl-debug2"], function(ws) {
+cprequire_test(["inline:com-chilipeppr-workspace-grbl-debug3"], function(ws) {
 
     console.log("initting workspace");
 
@@ -33,7 +33,7 @@ cprequire_test(["inline:com-chilipeppr-workspace-grbl-debug2"], function(ws) {
 } /*end_test*/ );
 
 // This is the main definition of your widget. Give it a unique name.
-cpdefine("inline:com-chilipeppr-workspace-grbl-debug2", ["chilipeppr_ready"], function() {
+cpdefine("inline:com-chilipeppr-workspace-grbl-debug3", ["chilipeppr_ready"], function() {
     return {
         /**
          * The ID of the widget. You must define this and make it unique.
