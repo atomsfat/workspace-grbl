@@ -1,4 +1,4 @@
-# com-chilipeppr-workspace-grbl-debug4
+# com-chilipeppr-workspace-grbl-debug5
 A ChiliPeppr Workspace grbl.
 
 
@@ -11,7 +11,7 @@ not conflict with other ChiliPeppr objects.
 
 | Item                  | Value           |
 | -------------         | ------------- | 
-| ID                    | com-chilipeppr-workspace-grbl-debug4 |
+| ID                    | com-chilipeppr-workspace-grbl-debug5 |
 | Name                  | Workspace / grbl |
 | Description           | A ChiliPeppr Workspace grbl. |
 | chilipeppr.load() URL | http://raw.githubusercontent.com/atomsfat/workspace-grbl/debug/auto-generated-workspace.html |
@@ -39,11 +39,11 @@ chilipeppr.load(
     // Callback after workspace loaded into #pnlWorkspace
     // Now use require.js to get reference to instantiated workspace
     cprequire(
-      ["inline:com-chilipeppr-workspace-grbl-debug4"], // the id you gave your workspace
-      function(myWorkspaceGrblDebug4) {
+      ["inline:com-chilipeppr-workspace-grbl-debug5"], // the id you gave your workspace
+      function(myWorkspaceGrblDebug5) {
         // Callback that is passed reference to the newly loaded workspace
-        console.log("Workspace / grbl just got loaded.", myWorkspaceGrblDebug4);
-        myWorkspaceGrblDebug4.init();
+        console.log("Workspace / grbl just got loaded.", myWorkspaceGrblDebug5);
+        myWorkspaceGrblDebug5.init();
       }
     );
   }
@@ -135,7 +135,7 @@ The table below shows, in order, the methods and properties inside the workspace
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-grbl-debug4"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / grbl"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"A ChiliPeppr Workspace grbl."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/atomsfat/workspace-grbl/debug/auto-generated-workspace.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/atomsfat/workspace-grbl"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/atomsfat/workspace-grbl"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://workspace-grbl-atomsfat.c9users.io/workspace.html"</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td>Contains reference to the Console widget object. Hang onto the reference
+      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-grbl-debug5"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / grbl"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"A ChiliPeppr Workspace grbl."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/atomsfat/workspace-grbl/debug/auto-generated-workspace.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/atomsfat/workspace-grbl"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/atomsfat/workspace-grbl"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://workspace-grbl-atomsfat.c9users.io/workspace.html"</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td>Contains reference to the Console widget object. Hang onto the reference
 so we can resize it when the window resizes because we want it to manually
 resize to fill the height of the browser so it looks clean.</td></tr><tr valign="top"><td>init</td><td>function</td><td>function () <br><br>The workspace's init method. It loads the all the widgets contained in the workspace
 and inits them.</td></tr><tr valign="top"><td>getBillboard</td><td>function</td><td>function () <br><br>Returns the billboard HTML, CSS, and Javascript for this Workspace. The billboard
