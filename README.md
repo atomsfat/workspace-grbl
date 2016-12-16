@@ -1,4 +1,4 @@
-# com-chilipeppr-workspace-grbl
+# com-chilipeppr-workspace-grbl-debug
 A ChiliPeppr Workspace grbl.
 
 
@@ -40,10 +40,10 @@ chilipeppr.load(
     // Now use require.js to get reference to instantiated workspace
     cprequire(
       ["inline:com-chilipeppr-workspace-grbl-debug"], // the id you gave your workspace
-      function(myWorkspaceGrbl) {
+      function(myWorkspaceGrblDebug) {
         // Callback that is passed reference to the newly loaded workspace
-        console.log("Workspace / grbl just got loaded.", myWorkspaceGrbl);
-        myWorkspaceGrbl.init();
+        console.log("Workspace / grbl just got loaded.", myWorkspaceGrblDebug);
+        myWorkspaceGrblDebug.init();
       }
     );
   }
